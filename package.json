@@ -22,16 +22,6 @@
     "test-coverage": "react-scripts test --coverage --collectCoverageFrom='src/**/*.{js,jsx,ts,tsx}' --collectCoverageFrom='!src/index.js' --collectCoverageFrom='!src/reportWebVitals.js' --collectCoverageFrom='!src/serviceWorker.js' --collectCoverageFrom='!src/**/styles.js'",
     "eject": "react-scripts eject"
   },
-  "jest": {
-    "collectCoverage": true,
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx,ts,tsx}",
-      "!src/index.js",
-      "!src/reportWebVitals.js",
-      "!src/serviceWorker.js",
-      "!src/**/styles.js"
-    ]
-  },
   "eslintConfig": {
     "extends": [
       "react-app",
