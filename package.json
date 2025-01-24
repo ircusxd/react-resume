@@ -19,7 +19,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test-coverage": "react-scripts test --coverage",
+    "test-coverage": "react-scripts test --coverage --collectCoverageFrom='src/**/*.{js,jsx,ts,tsx}' --collectCoverageFrom='!src/index.js' --collectCoverageFrom='!src/reportWebVitals.js' --collectCoverageFrom='!src/serviceWorker.js' --collectCoverageFrom='!src/**/styles.js'",
     "eject": "react-scripts eject"
   },
   "jest": {
